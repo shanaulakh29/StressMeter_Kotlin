@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/gridview">
+
+    <fragment
+        android:id="@+id/results"
+        android:name="com.example.gurshan_aulakh_stressmeter.ui.results.ResultsFragment"
+        android:label="StressMeter"
+        tools:layout="@layout/fragment_results" />
+    <fragment
+        android:id="@+id/gridview"
+        android:name="com.example.gurshan_aulakh_stressmeter.ui.gridview.GridViewFragment"
+        android:label="StressMeter"
+        tools:layout="@layout/fragment_gridview" />
+
+</navigation>
