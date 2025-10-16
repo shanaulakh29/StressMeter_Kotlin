@@ -116,16 +116,3 @@ class GridViewFragment : Fragment() {
         _binding = null
     }
 }
-//    fun showCurrentImages(){
-//        val endIndex = currentIndex+pageSize
-//        val currentPageImages = images.subList(currentIndex,endIndex)
-//        binding.gridView.adapter = GridViewAdapter(requireContext(), currentPageImages)
-//    }
-//
-//    fun loadNextImages(){
-//        currentIndex+=pageSize
-//        if(currentIndex+pageSize>images.size){
-//            currentIndex=0
-//        }
-//        showCurrentImages()
-//    }

@@ -18,4 +18,8 @@
     <string name="images_header">Touch the image that best captures how stressed you feel right now</string>
     <string name="submit">SUBMIT</string>
     <string name="cancel">CANCEL</string>
+    <string name="time">Time</string>
+    <string name="stress">Stress</string>
+    <string name="summary_of_results">Summary of Results</string>
+    <string name="a_graph_showing_your_stress_levels">A graph showing your Stress Levels</string>
 </resources>
